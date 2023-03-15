@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Bruno</title>
+    <title>Home Bruno Cruz</title>
     <style id="" media="all">/* devanagari */
         @font-face {
           font-family: 'Poppins';
@@ -199,6 +199,8 @@
     <link rel='stylesheet' id='faculty-style-css' href='wp-content/themes/faculty/css/styles/default.css?ver=c08f6ee5c3f821c4b7402116af53700f' type='text/css' media='all'/>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+
     <link rel="icon" href="images/BrunoPerfil.PNG" sizes="192x192"/>
 
     <style id="kirki-inline-styles">
@@ -342,25 +344,6 @@
           color: #333333;
       }
 
-      /* latin-ext */
-      @font-face {
-          font-family: 'Lato';
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url(https://vitomir.kovanovic.info/wp-content/fonts/lato/S6u9w4BMUTPHh7USSwaPHw3q5d0N7w.woff) format('woff');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-
-      /* latin */
-      @font-face {
-          font-family: 'Lato';
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url(https://vitomir.kovanovic.info/wp-content/fonts/lato/S6u9w4BMUTPHh7USSwiPHw3q5d0.woff) format('woff');
-          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
   </style>
     <link rel="stylesheet" href="css/style.css">
     <meta name="robots" content="noindex, follow">
@@ -384,7 +367,7 @@
         </div>
         <ul class="list-unstyled components mb-5">
             <li class="active">
-                <a href="index.html">
+                <a href="#">
                     <span class="fa fa-home mr-3"></span>
                      Home
                 </a>
@@ -435,7 +418,7 @@
                     <div class="wpb_wrapper">
                      <p>
                         Meus trabalhos aplicam técnicas de análise análise numérica, 
-                        com ênfase particular em sistemas embarcados e sistemas paralelos .
+                        com ênfase particular em sistemas embarcados e sistemas paralelos .o.
                      </p>
                    </div>
                  </div>
@@ -443,11 +426,71 @@
              </div>
            </div>
 
-         </div>
-
       </div>
 
-    </div>
+
+      <!--Publicações cards-->
+      <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_wp_posts wpb_content_element latest-posts-block">
+          <div class="widget widget_recent_entries" style="text-align: center;">
+            <ul style="text-align: center;">
+              <li>
+                <a href="https://www.frontiersin.org/articles/10.3389/fninf.2022.874234/full">
+                    <strong>
+                    Computer Limitations in 
+                    Replicating Numerical Simulations of a Neural Network Model 
+                    With Hodgkin-Huxley-Type Neurons
+                    </strong>
+                </a>
+              </li>
+              <p align="justify">
+                Computational experiments have been very important to 
+                numerically simulate real phenomena in several areas.
+                Many studies in computational biology discuss the necessity 
+                to obtain numerical replicability to accomplish new investigations. 
+                However, even following well-established rules in the literature, 
+                numerical replicability is unsuccessful when it takes the computer's 
+                limitations for representing real numbers into consideration. In this study, 
+                we used a previous published recurrent network model composed by Hodgkin-Huxley-type 
+                neurons to simulate the neural activity during development. 
+                The original source code in C/C++ was carefully refactored to mitigate the lack of replicability; 
+                moreover, it was re-implemented to other programming languages/software (XPP/XPPAUT, Python and Matlab) 
+                and executed under two operating systems (Windows and Linux). 
+                The commutation and association of the input current values 
+                during the summation of the pre-synaptic 
+                activity were also analyzed. A total of 72 simulations 
+                which must obtain the same result were executed to cover these scenarios. 
+                The results were replicated when the high floating-point precision (supplied by third-party libraries) was used.
+                However, using the default floating-point precision type, none of the results were replicated when compared with previous results. 
+                Several new procedures were proposed during the source code refactorization; they allowed replicating only a few scenarios, 
+                regardless of the language and operating system. Thus, the generated computational “errors” were the same. 
+                Even using a simple computational model, the numerical replicability was very difficult to be achieved, 
+                requiring people with computational expertise to be performed. After all, 
+                the research community must be aware that conducting analyses with numerical simulations 
+                that use real number operations can lead to different conclusions.              
+              </p>
+              <li>
+                <a href="https://digital-library.theiet.org/content/journals/10.1049/iet-cdt.2008.0071">
+                    <strong>Processing while routing: 
+                        a network-on-chip-based parallel system
+                    </strong>
+                </a>
+              </li>
+              <p align="justify">
+                Technology integration has increased to the point where the
+                development of multi-core processor architectures is a market
+                reality nowadays. In this scenario, the interconnection network
+                has a critical function when the number of cores increases,
+                since it is impossible to use bus-based solutions.
+                Other interconnection solutions have been employed. However, 
+                they are area and power expensive. This paper approaches this 
+                problem with a new NoC-based architecture and a new computation mode.
+                It proposes the utilisation of network-on-chip not only as interconnection but also as the processing datapath.
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
   
   </main>
     
