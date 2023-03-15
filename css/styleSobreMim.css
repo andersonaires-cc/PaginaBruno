@@ -21,4 +21,10 @@
     height: 11px;
     width: 11px;
     content: "";
-  }
+}
+
+.disciplinasBruno{
+    width: 70%;
+    display: inline-block;
+}
+  
