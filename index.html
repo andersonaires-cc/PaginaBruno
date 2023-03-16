@@ -350,8 +350,9 @@
     <script nonce="03b029af-dee5-4b27-80fa-1717cb848273">(function(w,d){!function(bv,bw,bx,by){bv[bx]=bv[bx]||{};bv[bx].executed=[];bv.zaraz={deferred:[],listeners:[]};bv.zaraz.q=[];bv.zaraz._f=function(bz){return function(){var bA=Array.prototype.slice.call(arguments);bv.zaraz.q.push({m:bz,a:bA})}};for(const bB of["track","set","debug"])bv.zaraz[bB]=bv.zaraz._f(bB);bv.zaraz.init=()=>{var bC=bw.getElementsByTagName(by)[0],bD=bw.createElement(by),bE=bw.getElementsByTagName("title")[0];bE&&(bv[bx].t=bw.getElementsByTagName("title")[0].text);bv[bx].x=Math.random();bv[bx].w=bv.screen.width;bv[bx].h=bv.screen.height;bv[bx].j=bv.innerHeight;bv[bx].e=bv.innerWidth;bv[bx].l=bv.location.href;bv[bx].r=bw.referrer;bv[bx].k=bv.screen.colorDepth;bv[bx].n=bw.characterSet;bv[bx].o=(new Date).getTimezoneOffset();if(bv.dataLayer)for(const bI of Object.entries(Object.entries(dataLayer).reduce(((bJ,bK)=>({...bJ[1],...bK[1]})))))zaraz.set(bI[0],bI[1],{scope:"page"});bv[bx].q=[];for(;bv.zaraz.q.length;){const bL=bv.zaraz.q.shift();bv[bx].q.push(bL)}bD.defer=!0;for(const bM of[localStorage,sessionStorage])Object.keys(bM||{}).filter((bO=>bO.startsWith("_zaraz_"))).forEach((bN=>{try{bv[bx]["z_"+bN.slice(7)]=JSON.parse(bM.getItem(bN))}catch{bv[bx]["z_"+bN.slice(7)]=bM.getItem(bN)}}));bD.referrerPolicy="origin";bD.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bv[bx])));bC.parentNode.insertBefore(bD,bC)};["complete","interactive"].includes(bw.readyState)?zaraz.init():bv.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script>
 </head>
 <body>
-  <main>
-    <div class="wrapper d-flex align-items-stretch">
+    <main>
+      <div class="wrapper d-flex align-items-stretch">
+        <!--Menu Lateral-->
         <nav id="sidebar">
         <div class="custom-menu">
             <button type="button" id="sidebarCollapse" class="btn btn-primary"></button>
@@ -373,43 +374,43 @@
                 </a>
             </li>
             <li>
-                <a href="sobremim.html">
+                <a href="pages/sobremim.html">
                     <span class="fa fa-info mr-3"></span>
                       Sobre Mim
                 </a>
             </li>
             <li>
-                <a href="publicacoes.html">
+                <a href="pages/publicacoes.html">
                     <span class="fa fa-book mr-3"></span>
                      Publicações
                 </a>
             </li>
             <li>
-                <a href="projetos.html">
+                <a href="pages/projetos.html">
                     <span class="fa fa-gears mr-3"></span>
                      Projetos
                 </a>
             </li>
             <li>
-                <a href="eventos.html">
+                <a href="pages/eventos.html">
                     <span class="fa fa-calendar mr-3"></span>
                      Eventos
                 </a>
             </li>
             <li>
-                <a href="contatos.html">
+                <a href="pages/contatos.html">
                     <span class="fa fa-phone mr-3"></span>
                      Contatos
                 </a>
             </li>
         </ul>
-    </nav>
-    <div id="content" class="p-4 p-md-5 pt-5">
+        </nav>
+      <div id="content" class="p-4 p-md-5 pt-5">
 
         <div id="fac-page home">
           
           <div class="vc_row wpb_row vc_row-fluid">
-
+            <!--Resumo-->
             <div class="wpb_column vc_column_container vc_col-sm-6">
               <div class="vc_column-inner">
                 <div class="wpb_wrapper">
@@ -417,18 +418,18 @@
                   <div class="wpb_text_column wpb_content_element ">
                     <div class="wpb_wrapper">
                       <p>
-                      Possui graduação em Ciências da Computação pela Universidade Federal do Rio Grande do Norte(2006) 
-                      e mestrado em Sistemas e Computação pela Universidade Federal do Rio Grande do Norte(2009). 
-                      Atualmente é Professor Assistente VII da Universidade do Estado do Rio Grande do Norte. 
-                      Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Computação.
+                        Possui graduação em Ciências da Computação pela Universidade Federal do Rio Grande do Norte(2006) 
+                        e mestrado em Sistemas e Computação pela Universidade Federal do Rio Grande do Norte(2009). 
+                        Atualmente é Professor Assistente VII da Universidade do Estado do Rio Grande do Norte. 
+                        Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Computação.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-          <div class="wpb_column vc_column_container vc_col-sm-6">
+            <!--Imagem Resumo-->
+            <div class="wpb_column vc_column_container vc_col-sm-6">
             <div class="vc_column-inner">
               <div class="wpb_wrapper">
                 <div class="wpb_single_image wpb_content_element vc_align_left   img-responsive">
@@ -443,10 +444,10 @@
                 </div>
               </div>
             </div>
-          </div>
+            </div>
 
           </div>
-      <div class="vc_row wpb_row vc_row-fluid">
+        <div class="vc_row wpb_row vc_row-fluid">
 
          <div class="wpb_column vc_column_container vc_col-sm-6">
            <div class="vc_column-inner">
@@ -487,10 +488,10 @@
              </div>
            </div>
 
-      </div>
+        </div>
 
-      <!--Interesses de Pesquisa-->
-      <div class="wpb_column vc_column_container vc_col-sm-6">
+        <!--Interesses de Pesquisa-->
+        <div class="wpb_column vc_column_container vc_col-sm-6">
         <div class="vc_wp_posts wpb_content_element latest-posts-block">
           <div class="widget widget_recent_entries" style="text-align: center;">
             <h2 class="widgettitle">Interesses de Pesquisa</h2>
@@ -507,43 +508,42 @@
             </ul>
           </div>
         </div>
-      </div>
+        </div>
 
-      <!--Últimos Projetos-->
-
-      <div class="wpb_column vc_column_container vc_col-sm-6">
+        <!--Últimos Projetos-->
+        <div class="wpb_column vc_column_container vc_col-sm-6">
         <div class="vc_wp_posts wpb_content_element latest-posts-block">
           <div class="widget widget_recent_entries" style="text-align: center;">
             <h2 class="widgettitle">Últimos Projetos</h2>
             <ul style="text-align: center;">
               <li>
-                <a href="projetos.html">
+                <a href="pages/projetos.html">
                   Estudo de técnicas baseadas em 
                   Deep Learning 
                   para Super-Resolução de Imagens
                 </a>
               </li>
               <li>
-                <a href="projetos.html">Desenvolvimento de uma ferramenta para auxiliar 
+                <a href="pages/projetos.html">Desenvolvimento de uma ferramenta para auxiliar 
                   o ensino e aprendizagem utilizando realidade aumentada
                 </a>
               </li>
               <li>
-                <a href="projetos.html">Desenvolvimento de Um Sistema Para Rastreamento 
+                <a href="pages/projetos.html">Desenvolvimento de Um Sistema Para Rastreamento 
                   de Cardumes de Peixe Zebrafish
                 </a>
               </li>
             </ul>
           </div>
         </div>
+        </div>
+        
       </div>
 
-    </div>
-  
-  </main>
+    </main>
     
 
-  <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start">
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2023 Developed by 
@@ -553,15 +553,14 @@
       </a>
     </div>
   <!-- Copyright -->
-  </footer>
+    </footer>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7a5f5e2c09642646","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.2.0","si":100}' crossorigin="anonymous"></script>
 
-
   </body>
-
 
 </html>
