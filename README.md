@@ -1,10 +1,7 @@
 # PaginaBruno
 Página Profissional para o professor Bruno.
 
-Click aqui em baixo para abrir o projeto :smiley:
-
-<a href="https://pagina-bruno.vercel.app/">Abra aqui o Site do Professor Bruno</a></br>
-
+Projeto para a disciplina Desenvolvimento para Web :smiley:
 
 - 💻 Tecnologias utilizadas.
 
