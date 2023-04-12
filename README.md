@@ -1,4 +1,6 @@
-# PaginaBruno
+<img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-green"/>
+
+# Pagina Professor Bruno
 Página Profissional para o professor Bruno.
 
 Projeto para a disciplina Desenvolvimento para Web :smiley:
