@@ -16,4 +16,4 @@ Projeto para a disciplina Desenvolvimento para Web :smiley:
 </div>
 
 ## Confira o site no link
-<a href="https://pagina-bruno.vercel.app/">Site Bruno</a>
+:globe_with_meridians: <a href="https://pagina-bruno.vercel.app/">Site Bruno</a>
