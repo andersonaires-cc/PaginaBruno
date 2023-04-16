@@ -15,3 +15,5 @@ Projeto para a disciplina Desenvolvimento para Web :smiley:
     <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-original.svg" title="jquery" width="40" height="40">&nbsp;
 </div>
 
+## Confira o site no link
+<a href="https://pagina-bruno.vercel.app/">Site Bruno</a>
